@@ -126,7 +126,7 @@ app.get('/MRU&MRUV', (req, res) => {
 });
 
 app.get('*', (req, res)=>{
-    res.sendFile(__dirname + '/public/404.html')
+    res.sendFile(__dirname + '/public_html/404.html')
 })
 
 app.listen(port, () => {
