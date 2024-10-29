@@ -61,94 +61,69 @@ app.get('/portafolio', (req, res) => {
     });
 });
 
-app.get('/contacto', (req, res) => {
-    res.render('contacto', {
-        nombre: 'Cristian',
-        apellido: 'Mendoza',
-        titulo: 'Contacto'
-    });
-});
-
-app.get('/Proj1', (req, res) => {
-    res.render('Proj1', {
+app.get('/veterinaria', (req, res) => {
+    res.render('veterinaria', {
         nombre: 'Cristian',
         apellido: 'Mendoza',
         titulo: 'Portafolio'
     });
 });
 
-app.get('/Proj2', (req, res) => {
-    res.render('Proj2', {
+app.get('/administrador', (req, res) => {
+    res.render('administrador', {
         nombre: 'Cristian',
         apellido: 'Mendoza',
         titulo: 'Portafolio'
     });
 });
 
-app.get('/Proj3', (req, res) => {
-    res.render('Proj3', {
+app.get('/paginaWeb', (req, res) => {
+    res.render('paginaWeb', {
         nombre: 'Cristian',
         apellido: 'Mendoza',
         titulo: 'Portafolio'
     });
 });
 
-app.get('/Proj4', (req, res) => {
-    res.render('Proj4', {
+app.get('/compiladores', (req, res) => {
+    res.render('compiladores', {
         nombre: 'Cristian',
         apellido: 'Mendoza',
         titulo: 'Portafolio'
     });
 });
 
-app.get('/Proj5', (req, res) => {
-    res.render('Proj5', {
+app.get('/raspberrypi', (req, res) => {
+    res.render('raspberrypi', {
         nombre: 'Cristian',
         apellido: 'Mendoza',
         titulo: 'Portafolio'
     });
 });
 
-app.get('/Proj6', (req, res) => {
-    res.render('Proj6', {
+app.get('/YARGS', (req, res) => {
+    res.render('YARGS', {
         nombre: 'Cristian',
         apellido: 'Mendoza',
         titulo: 'Portafolio'
     });
 });
 
-app.get('/Proj7', (req, res) => {
-    res.render('Proj7', {
+app.get('/webEtica', (req, res) => {
+    res.render('webEtica', {
         nombre: 'Cristian',
         apellido: 'Mendoza',
         titulo: 'Portafolio'
     });
 });
 
-app.get('/Proj9', (req, res) => {
-    res.render('Proj9', {
+app.get('/MRU&MRUV', (req, res) => {
+    res.render('MRU&MRUV', {
         nombre: 'Cristian',
         apellido: 'Mendoza',
         titulo: 'Portafolio'
     });
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 app.get('*', (req, res)=>{
     res.sendFile(__dirname + '/public/404.html')
