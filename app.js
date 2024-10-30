@@ -33,7 +33,8 @@ app.get('/sobremi', (req, res) => {
     res.render('sobremi', {
         nombre: 'Cristian',
         apellido: 'Mendoza',
-        titulo: 'Sobre mi'
+        titulo: 'Sobre mi',
+        nombreD: 'Cristian Mendoza'
     });
 });
 

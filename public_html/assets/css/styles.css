@@ -650,12 +650,6 @@ svg {
     padding-top: 10px;
     padding-bottom: 50px;
 }
-.portfolio .galeria .proyecto video {
-    max-width: 100%;  /* El video ocupa el 100% del ancho del contenedor */
-    height: auto;  /* Mantiene las proporciones del video */
-    display: block;  /* Elimina cualquier posible espacio blanco causado por display: inline */
-    margin: 0 auto;  /* Centra el video horizontalmente */
-}
 
 .portfolio .galeria .proyecto iframe {
     max-width: 100%;  /* El video ocupa el 100% del ancho del contenedor */
