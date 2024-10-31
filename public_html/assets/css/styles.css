@@ -356,7 +356,7 @@ svg {
 }
 @keyframes javascript {
     0%{width: 0%;}
-    100%{width: 55%;}
+    100%{width: 45%;}
 }
 
 .skills .skill .htmlcss{
@@ -365,7 +365,7 @@ svg {
 }
 @keyframes htmlcss {
     0%{width: 0%;}
-    100%{width: 65%;}
+    100%{width: 50%;}
 }
 
 .skills .skill .Cplus{
@@ -374,7 +374,7 @@ svg {
 }
 @keyframes Cplus {
     0%{width: 0%;}
-    100%{width:  65%;}
+    100%{width:  45%;}
 }
 
 .skills .skill .Csharp{
@@ -383,7 +383,7 @@ svg {
 }
 @keyframes Csharp {
     0%{width: 0%;}
-    100%{width: 65%;}
+    100%{width: 40%;}
 }
 
 .skills .skill .java{
@@ -392,7 +392,7 @@ svg {
 }
 @keyframes java {
     0%{width: 0%;}
-    100%{width: 65%;}
+    100%{width: 45%;}
 }
 
 .skills .skill .comunicacion{
