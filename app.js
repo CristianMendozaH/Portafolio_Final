@@ -126,9 +126,11 @@ app.get('/MRU&MRUV', (req, res) => {
     });
 });
 
-app.get('*', (req, res)=>{
-    res.sendFile(__dirname + '/public_html/404.html')
-})
+app.get("*", (req, res) => {
+    res.render("404", {
+      titulo: "Error 404 - Página No Encontrada",
+    });
+  });
 
 app.listen(port, () => {
     console.log(`Ejemplo escuchando en http://localhost:${port}`);
